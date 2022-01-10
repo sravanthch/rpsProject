@@ -5,7 +5,7 @@ while True:
     player=None
     while player not in choices:
         player=input("\nrock, paper or scissors??").lower()
-    if player==computer:
+    if player=='computer':
         print('Computer:', computer)
         print('Player:', player)
         print("Tie!!")
